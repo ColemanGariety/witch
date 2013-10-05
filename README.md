@@ -2,6 +2,8 @@
 
 A logger for Ruby that uses OS X notifications.
 
+![bitch](https://raw.github.com/JacksonGariety/bitch/master/bitch.jpg)
+
 *Gets in yo face when you write ruby.*
 
 ## Installation
