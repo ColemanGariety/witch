@@ -1,7 +1,7 @@
 # Bitch
 [![Gem Version](https://badge.fury.io/rb/bitch.png)](http://badge.fury.io/rb/bitch)
 
-A logger for Ruby that uses OS X notifications.
+A Ruby logger that uses OS X notifications.
 
 *Gets in yo face when you write ruby.*
 
