@@ -6,15 +6,15 @@ module Bitch
   end
   
   def self.yell(options)
-    if options.is_a? String
-      args = "-message \"#{options}\""
-    else
+    if options.is_a? Hash
       options.each do |arg, val|
         val.capitalize! if arg == :sound
-        (args ||= "") << "-#{arg} \"#{val}\" "
+        (args ||= "") << "-#{arg} \"#{val.to_s}\" "
       end
       
       args.strip!
+    else
+      args = "-message \"#{options.to_s}\""
     end
     
     @silenced ? false : `terminal-notifier #{args}`
