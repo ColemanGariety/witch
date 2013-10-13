@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = Bitch::VERSION
   spec.authors       = ["Jackson Gariety", "Colby Aley"]
   spec.email         = ["personal@jacksongariety.com", "colby@aley.me"]
-  spec.description   = "A logger for Ruby that uses OS X notifications."
+  spec.description   = "A Ruby logger that uses native Mac/Linux notifications."
   spec.summary       = "Gets in yo face when you write ruby."
   spec.homepage      = "http://github.com/JacksonGariety/bitch"
   spec.license       = "Apache"
