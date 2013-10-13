@@ -29,6 +29,14 @@ Example #2 takes options based on the [terminal-notifier](https://github.com/all
 
 ## Contributing
 
+#### Cloning
+
+This repo depends upon my fork of @alloy's `terminal-notifier` gem. To clone with submodules:
+
+    $ git clone --recursive https://github.com/JacksonGariety/terminal-notifier.git
+
+#### GitHub for dummies
+
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)

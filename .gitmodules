@@ -1,0 +1,3 @@
+[submodule "vendor/terminal-notifier"]
+	path = vendor/terminal-notifier
+	url = https://github.com/JacksonGariety/terminal-notifier.git

@@ -3,17 +3,17 @@ require "bitch"
 describe Bitch do
   describe ".yell" do
     it "should send a message" do
-      Bitch.yell("message").should_not be_false
+      Bitch.yell("a problem you finna resolve").should_not be_false
     end
 
     it "should not send a message" do
       Bitch.silence!
-      Bitch.yell("silent message").should_not be_true
+      Bitch.yell("a problem you were finna resolve but got stupid n' gave up").should_not be_true
     end
 
     it "should not send a message after toggling silence" do
-      Bitch.silence!
-      Bitch.yell('message').should_not be_false
+      Bitch.unsilence!
+      Bitch.yell("a problem you finna resolve").should_not be_false
     end
   end
 
