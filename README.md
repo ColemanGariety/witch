@@ -21,11 +21,12 @@ And then execute:
 
 Some examples of how to use your bitch:
 
-1. `Bitch.yell("yo homie there's a problem") #=> true`
-2. `Bitch.yell(message: "yo homie there's a problem", sound: "Frog") #=> true`
+1. `Bitch.yell("yo homie there's a problem") #=> String`
+2. `Bitch.yell("yo homie there's a problem", { :sound => "Frog" }) #=> String`
 3. `Bitch.silence!; Bitch.yell("yo homie there's a problem") #=> false`
+4. `Bitch.silence!; Bitch.unsilence!; Bitch.yell("stop that cudi") #=> String`
 
-Example #2 takes options based on the [terminal-notifier](https://github.com/alloy/terminal-notifier) documentation.
+`Bitch.yell`'s second parameter is a hash of symbols/values based on the [terminal-notifier](https://github.com/alloy/terminal-notifier) documentation.
 
 ## Contributing
 
