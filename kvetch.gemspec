@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'bitch/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "bitch"
-  spec.version       = Bitch::VERSION
+  spec.name          = "kvetch"
+  spec.version       = Kvetch::VERSION
   spec.authors       = ["Jackson Gariety", "Colby Aley"]
   spec.email         = ["personal@jacksongariety.com", "colby@aley.me"]
   spec.description   = "A Ruby logger that uses native Mac/Linux notifications."
   spec.summary       = "Gets in yo face when you write ruby."
-  spec.homepage      = "http://github.com/JacksonGariety/bitch"
+  spec.homepage      = "http://github.com/JacksonGariety/kvetch"
   spec.license       = "Apache"
 
   spec.files         = `git ls-files`.split($/)
